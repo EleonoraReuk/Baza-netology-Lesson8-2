@@ -2,7 +2,7 @@
 #include <iostream>
 
 Triangle::Triangle(int a, int b, int c, int A, int B, int C)
-    : Figure("Треугольник"), a(a), b(b), c(c), A(A), B(B), C(C) {
+    : Figure("РўСЂРµСѓРіРѕР»СЊРЅРёРє"), a(a), b(b), c(c), A(A), B(B), C(C) {
 }
 
 bool Triangle::check() const {
@@ -11,6 +11,6 @@ bool Triangle::check() const {
 
 void Triangle::print_info() const {
     Figure::print_info();
-    std::cout << "Стороны: a=" << a << " b=" << b << " c=" << c << std::endl;
-    std::cout << "Углы: A=" << A << " B=" << B << " C=" << C << std::endl;
+    std::cout << "РЎС‚РѕСЂРѕРЅС‹: a=" << a << " b=" << b << " c=" << c << std::endl;
+    std::cout << "РЈРіР»С‹: A=" << A << " B=" << B << " C=" << C << std::endl;
 }
