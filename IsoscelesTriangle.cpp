@@ -6,7 +6,7 @@ IsoscelesTriangle::IsoscelesTriangle(int a, int b, int A, int B)
 }
 
 void IsoscelesTriangle::print_info() const {
-    std::cout << "Ðàâíîáåäðåííûé òðåóãîëüíèê:" << std::endl;
-    std::cout << "Ñòîðîíû: a=" << a << " b=" << b << " c=" << c << std::endl;
-    std::cout << "Óãëû: A=" << A << " B=" << B << " C=" << C << std::endl;
+    std::cout << "Ð Ð°Ð²Ð½Ð¾Ð±ÐµÐ´Ñ€ÐµÐ½Ð½Ñ‹Ð¹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸Ðº:" << std::endl;
+    std::cout << "Ð¡Ñ‚Ð¾Ñ€Ð¾Ð½Ñ‹: a=" << a << " b=" << b << " c=" << c << std::endl;
+    std::cout << "Ð£Ð³Ð»Ñ‹: A=" << A << " B=" << B << " C=" << C << std::endl;
 }
