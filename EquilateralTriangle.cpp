@@ -6,7 +6,7 @@ EquilateralTriangle::EquilateralTriangle(int side)
 }
 
 void EquilateralTriangle::print_info() const {
-    std::cout << "Ðàâíîñòîðîííèé òðåóãîëüíèê:" << std::endl;
-    std::cout << "Ñòîðîíû: a=" << a << " b=" << b << " c=" << c << std::endl;
-    std::cout << "Óãëû: A=" << A << " B=" << B << " C=" << C << std::endl;
+    std::cout << "Ð Ð°Ð²Ð½Ð¾ÑÑ‚Ð¾Ñ€Ð¾Ð½Ð½Ð¸Ð¹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸Ðº:" << std::endl;
+    std::cout << "Ð¡Ñ‚Ð¾Ñ€Ð¾Ð½Ñ‹: a=" << a << " b=" << b << " c=" << c << std::endl;
+    std::cout << "Ð£Ð³Ð»Ñ‹: A=" << A << " B=" << B << " C=" << C << std::endl;
 }
