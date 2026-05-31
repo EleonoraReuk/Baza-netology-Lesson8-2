@@ -6,7 +6,7 @@ Rectangle::Rectangle(int a, int b)
 }
 
 void Rectangle::print_info() const {
-    std::cout << "Ïðÿìîóãîëüíèê:" << std::endl;
-    std::cout << "Ñòîðîíû: a=" << a << " b=" << b << " c=" << c << " d=" << d << std::endl;
-    std::cout << "Óãëû: A=" << A << " B=" << B << " C=" << C << " D=" << D << std::endl;
+    std::cout << "ÐŸÑ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸Ðº:" << std::endl;
+    std::cout << "Ð¡Ñ‚Ð¾Ñ€Ð¾Ð½Ñ‹: a=" << a << " b=" << b << " c=" << c << " d=" << d << std::endl;
+    std::cout << "Ð£Ð³Ð»Ñ‹: A=" << A << " B=" << B << " C=" << C << " D=" << D << std::endl;
 }
