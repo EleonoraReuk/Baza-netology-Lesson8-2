@@ -6,7 +6,7 @@ RightTriangle::RightTriangle(int a, int b, int c, int A, int B)
 }
 
 void RightTriangle::print_info() const {
-    std::cout << "Ïðÿìîóãîëüíûé òðåóãîëüíèê:" << std::endl;
-    std::cout << "Ñòîðîíû: a=" << a << " b=" << b << " c=" << c << std::endl;
-    std::cout << "Óãëû: A=" << A << " B=" << B << " C=" << C << std::endl;
+    std::cout << "ÐŸÑ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ñ‹Ð¹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸Ðº:" << std::endl;
+    std::cout << "Ð¡Ñ‚Ð¾Ñ€Ð¾Ð½Ñ‹: a=" << a << " b=" << b << " c=" << c << std::endl;
+    std::cout << "Ð£Ð³Ð»Ñ‹: A=" << A << " B=" << B << " C=" << C << std::endl;
 }
